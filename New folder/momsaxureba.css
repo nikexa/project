@@ -1,0 +1,257 @@
+body {
+  background-color: #f8f9fa;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.navbar-light .navbar-brand {
+  color: black;
+}
+.navbar-collapse {
+  flex-direction: row-reverse;
+  margin-right: 150px;
+  margin-top: 10px;
+}
+.navbar-nav li {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.navbar {
+  margin-bottom: 12px;
+}
+.navbar-brand {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.card {
+  width: 350px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 100px;
+  display: inline-block;
+}
+.card img {
+  height: 235px;
+  width: 348px;
+  border-radius: 10px;
+  border-end-end-radius: 0px;
+  border-end-start-radius: 0px;
+}
+.card .text {
+  height: 51.35px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 13px;
+}
+.cardebi {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+  grid-template-rows: 1fr 1fr;
+}
+.card1 {
+  margin-left: 280px;
+}
+.card2 {
+  margin-left: 70px;
+}
+.card3 {
+  margin-left: 75px;
+}
+.card4 {
+  margin-left: 280px;
+}
+.card5 {
+  margin-left: 70px;
+}
+.card6 {
+  margin-left: 75px;
+}
+.first .text {
+  height: 100px;
+  background-color: black;
+}
+.first .text span {
+  font-size: 40px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  word-spacing: 10px;
+}
+.cardebi a {
+  text-decoration: none;
+  color: #212529;
+}
+main {
+  margin-bottom: 300px;
+}
+.card2 img{
+  object-fit: cover;
+}
+.card3 img{
+  object-fit: cover;
+  margin-top: 0px !important;
+}
+footer{
+  display: grid;
+grid-template-columns: 1fr 1fr ;
+  margin-top: 150px;
+}
+.text1 span{
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    word-spacing: 10px;
+}
+ .text .line{
+    background-color: red;
+    height: 6px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-left: 43.6%;
+}
+.left{
+    width: 700px;
+    height: 700px;
+    background-color: rgb(35, 35, 39);
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 260px;
+}
+
+.fa-location-dot{
+    color: white;
+    font-size: 50px;
+    margin-left: 125px;
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.adres .first{
+    color: rgb(255, 255, 255);
+    margin-left: 93px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 25px;
+}
+.adres .second{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  display: block;
+  margin-left: 20px;
+}
+.adres .third{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+
+
+.fa-envelope{
+  color: white;
+  font-size: 50px;
+  margin-left: 125px;
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.gmail .first{
+  color: rgb(255, 255, 255);
+  margin-left: 120px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 25px;
+}
+.gmail .second{
+color: rgb(255, 255, 255);
+font-size: 16px;
+display: block;
+margin-left: 50px;
+}
+.gmail .third{
+color: rgb(255, 255, 255);
+font-size: 16px;
+margin-left: 50px;
+}
+
+
+
+.fa-phone{
+  color: white;
+  font-size: 50px;
+  margin-left: 100px;
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.phone .first{
+  color: rgb(255, 255, 255);
+  margin-left: 85px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 25px;
+}
+.phone .second{
+color: rgb(255, 255, 255);
+font-size: 16px;
+display: block;
+margin-left: 65px;
+}
+.phone .third{
+color: rgb(255, 255, 255);
+font-size: 16px;
+margin-left: 65px;
+}
+
+
+
+
+
+.fa-user{
+  color: white;
+  font-size: 50px;
+  margin-left: 120px;
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.help .first{
+  color: rgb(255, 255, 255);
+  margin-left: 85px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 25px;
+}
+.help .second{
+color: rgb(255, 255, 255);
+font-size: 16px;
+display: block;
+margin-left: 55px;
+}
+.help .third{
+color: rgb(255, 255, 255);
+font-size: 16px;
+margin-left: 85px;
+}
+.right{
+  height: 700px;
+  width: 700px;
+}
+.right iframe{
+  height: 100%;
+  width: 100%;
+}

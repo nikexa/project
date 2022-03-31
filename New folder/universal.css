@@ -1,0 +1,248 @@
+body {
+  background-color: #f8f9fa;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+.navbar-light .navbar-brand {
+  color: black;
+}
+.navbar-collapse {
+  flex-direction: row-reverse;
+  margin-right: 150px;
+  margin-top: 10px;
+}
+.navbar-nav li {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.navbar {
+  margin-bottom: 12px;
+}
+.navbar-brand {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 300px;
+}
+
+.js .slider-single > div:nth-child(1n + 2) {
+  display: none;
+}
+
+.js .slider-single.slick-initialized > div:nth-child(1n + 2) {
+  display: block;
+}
+
+h3 {
+  background: #f0f0f0;
+  font-size: 2.25rem;
+  margin: 0.5rem;
+}
+
+.slider-single h3 {
+  line-height: 10rem;
+}
+
+.slider-nav .slick-slide {
+  cursor: pointer;
+}
+
+.slider-nav img {
+  width: 127px;
+}
+#page {
+  display: inline-block;
+  margin-top: 50px;
+}
+main .text .first {
+  font-size: 40px;
+  display: block;
+}
+main .text {
+  margin-top: 50px;
+}
+main .price {
+  font-size: 30px;
+}
+main .text .pricee {
+  margin-top: 100px;
+}
+main .text .agwera {
+  margin-top: 200px;
+}
+.first {
+  word-spacing: 20px;
+}
+.slick-next:before{
+  color: black;
+}
+.slick-prev:before{
+  color: black;
+}
+footer{
+  display: grid;
+grid-template-columns: 1fr 1fr ;
+  margin-top: 150px;
+}
+.text1 span{
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    word-spacing: 10px;
+}
+ .text .line{
+    background-color: red;
+    height: 6px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-left: 43.6%;
+}
+.left{
+    width: 700px;
+    height: 700px;
+    background-color: rgb(35, 35, 39);
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 260px;
+}
+
+.fa-location-dot{
+    color: white;
+    font-size: 50px;
+    margin-left: 125px;
+    display: block;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.adres .first{
+    color: rgb(255, 255, 255);
+    margin-left: 93px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 25px;
+}
+.adres .second{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  display: block;
+  margin-left: 20px;
+}
+.adres .third{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+
+
+.fa-envelope{
+  color: white;
+  font-size: 50px;
+  margin-left: 125px;
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.gmail .first{
+  color: rgb(255, 255, 255);
+  margin-left: 120px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 25px;
+}
+.gmail .second{
+color: rgb(255, 255, 255);
+font-size: 16px;
+display: block;
+margin-left: 50px;
+}
+.gmail .third{
+color: rgb(255, 255, 255);
+font-size: 16px;
+margin-left: 50px;
+}
+
+
+
+.fa-phone{
+  color: white;
+  font-size: 50px;
+  margin-left: 100px;
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.phone .first{
+  color: rgb(255, 255, 255);
+  margin-left: 85px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 25px;
+}
+.phone .second{
+color: rgb(255, 255, 255);
+font-size: 16px;
+display: block;
+margin-left: 65px;
+}
+.phone .third{
+color: rgb(255, 255, 255);
+font-size: 16px;
+margin-left: 65px;
+}
+
+
+
+
+
+.fa-user{
+  color: white;
+  font-size: 50px;
+  margin-left: 120px;
+  display: block;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.help .first{
+  color: rgb(255, 255, 255);
+  margin-left: 85px;
+  font-size: 20px;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 25px;
+}
+.help .second{
+color: rgb(255, 255, 255);
+font-size: 16px;
+display: block;
+margin-left: 55px;
+}
+.help .third{
+color: rgb(255, 255, 255);
+font-size: 16px;
+margin-left: 85px;
+}
+.right{
+  height: 700px;
+  width: 700px;
+}
+.right iframe{
+  height: 100%;
+  width: 100%;
+}
